@@ -21,4 +21,6 @@ while(temp != "0"):
   print(quoteResponse.text)
   
   temp = input("Enter 1 to start or 0 to exit: ")
+  
+print("Thanks for playing!")
 
