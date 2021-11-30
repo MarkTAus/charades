@@ -7,10 +7,10 @@ print("2. Word will display and player has to act the word out.")
 print("3. The first person to guess the word or phrase gets a point.")
 
 response = requests.get("https://random-word-api.herokuapp.com/word?number=1")
-quoteResponse = requests.get("https://yusufnb-quotes-v1.p.rapidapi.com/widget/~einstein.json")
+quoteResponse = requests.get("https://random-word-form.herokuapp.com/random/animal")
 
 print("The random word is:")
 print(response.text)
 
-print("Guess who said this quote!")
+print("Act out this animal:")
 print(quoteResponse)
