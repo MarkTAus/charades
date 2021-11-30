@@ -10,7 +10,7 @@ response = requests.get("https://random-word-api.herokuapp.com/word?number=1")
 quoteResponse = requests.get("https://yusufnb-quotes-v1.p.rapidapi.com/widget/~einstein.json")
 
 print("The random word is:")
-print(response)
+print(response.text)
 
 print("Guess who said this quote!")
 print(quoteResponse)
